@@ -2,7 +2,7 @@ vector<ll>factors;
 
 ll factorize(ll n)
 {
-    /// Seive need to be added
+    /// seive() need to be added in main fuction
 
     ll root=sqrt(n);
 
