@@ -1,6 +1,4 @@
-ll fact[Lim+5];
-
-void factorial()
+void Factorial()
 {
     ll x=1;
     fact[0]=1;
@@ -12,12 +10,12 @@ void factorial()
     }
 }
 
-ll bigmod(ll a, ll p)
+ll BigMod(ll a, ll p)
 {
     if(p==0) return 1;
     ll x;
 
-    x=bigmod(a,p/2)%mod;
+    x=BigMod(a,p/2)%mod;
     x=(x*x)%mod;
 
     if(p%2==1)
@@ -33,7 +31,7 @@ ll nCr(ll n, ll r)
     ll up=fact[n]%mod;
     ll down=(fact[r]*fact[n-r])%mod;
 
-    down=bigmod(down,mod-2)%mod; /// using Farmat's little theorm A^-1==A^M-2 (where A is down and M is mod)
+    down=BigMod(down,mod-2)%mod; /// using Farmat's little theorm A^-1==A^M-2 (where A is down and M is mod)
 
     ll ans=(up*down)%mod;
 
