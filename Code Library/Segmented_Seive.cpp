@@ -1,4 +1,4 @@
-void segmented_seive(ll L ,ll R)
+void Segmented_Seive(ll L ,ll R)
 {
      /// seive() need to be added in main fuction
 
