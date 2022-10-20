@@ -29,7 +29,7 @@ ll Sod(ll n)
 }
 
 /* 
-   all necessary  void funtion need call from particular function.
-   all marco need to be define.
+   all necessary  funtion need to be added.
+   all macro need to be define.
    Though this precode was tested,check all function that give correct answer.
 */
