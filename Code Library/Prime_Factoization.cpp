@@ -1,6 +1,6 @@
 vector<ll>factors;
 
-ll factorize(ll n)
+ll Factorize(ll n)
 {
     /// seive() need to be added in main fuction
 
