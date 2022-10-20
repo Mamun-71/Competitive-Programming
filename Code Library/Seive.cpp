@@ -1,5 +1,4 @@
-int arr[Lim+4];
-vector<int>prime;
+
 void seive()
 {
     int root=sqrt(Lim);
