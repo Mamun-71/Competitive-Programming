@@ -1,5 +1,4 @@
-ll ncr[1005][1005];
-void pre_calculate()
+void nCr()
 {
 
     for(ll i = 0; i < 1005; i++)
@@ -16,6 +15,7 @@ void pre_calculate()
         }
     }
 }
+
 /* 
    all necessary  void funtion need call from particular function.
    all marco need to be define.
