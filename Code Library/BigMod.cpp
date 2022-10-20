@@ -1,4 +1,4 @@
-ll bigmod(ll a, ll p)
+ll BigMod(ll a, ll p)
 {
     if(p==0) return 1;
     ll x;
