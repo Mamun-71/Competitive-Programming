@@ -29,6 +29,7 @@ void Seive()
     }
 
 }
+
 /* 
    all necessary  void funtion need call from particular function.
    all marco need to be define.
