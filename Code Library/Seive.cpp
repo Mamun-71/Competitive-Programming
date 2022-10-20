@@ -1,5 +1,5 @@
 
-void seive()
+void Seive()
 {
     int root=sqrt(Lim);
 
