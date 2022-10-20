@@ -1,4 +1,3 @@
-
 void Seive()
 {
     int root=sqrt(Lim);
