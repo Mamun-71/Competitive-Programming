@@ -1,5 +1,3 @@
-vector<ll>factors;
-
 ll Factorize(ll n)
 {
     /// seive() need to be added in main fuction
@@ -24,6 +22,7 @@ ll Factorize(ll n)
         factors.push_back(n);
     }
 }
+
 /* 
    all necessary  void funtion need call from particular function.
    all marco need to be define.
